@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleopis.com">
     <link rel="preconnect" href="https://fonts.gstotic.com" crossorigin>
     <link href="https://fonts.googleopis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/teachers.css">
 </head>
 <body>
     <div class="wrapper">
@@ -27,7 +27,7 @@
                                 <a href="https://kalashnikov.academy/directions" class="menu__list-link">НАПРАВЛЕНИЯ</a>
                             </li>
                             <li class="menu__list-item">
-                                <a href="#" class="menu__list-link">КОНТАКТЫ</a>
+                                <a href="https://kalashnikov.academy/contacts" class="menu__list-link">КОНТАКТЫ</a>
                             </li>
                             <li class="menu__list-item">
                                 <a href="#" class="menu__list-link">ПРОЕКТЫ</a>
@@ -38,63 +38,174 @@
             </div>
         </header>
         <main class="main">
-            <div class="dropdown">
-                <button class="dropbtn">Меню</button>
-                <div class="dropdown-content">
-                  <div class="row">
-                    <div class="column">
-                      <img src="image-1.jpg" alt="Image 1">
-                      <div class="text">
-                        <h2>Фото 1</h2>
-                        <p>Описание фото 1</p>
-                        <button class="btn">Подробнее</button>
-                      </div>
-                    </div>
-                    <div class="column">
-                      <img src="image-2.jpg" alt="Image 2">
-                      <div class="text">
-                        <h2>Фото 2</h2>
-                        <p>Описание фото 2</p>
-                        <button class="btn">Подробнее</button>
-                      </div>
-                    </div>
-                    <div class="column">
-                      <img src="image-3.jpg" alt="Image 3">
-                      <div class="text">
-                        <h2>Фото 3</h2>
-                        <p>Описание фото 3</p>
-                        <button class="btn">Подробнее</button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="column">
-                      <img src="image-4.jpg" alt="Image 4">
-                      <div class="text">
-                        <h2>Фото 4</h2>
-                        <p>Описание фото 4</p>
-                        <button class="btn">Подробнее</button>
-                      </div>
-                    </div>
-                    <div class="column">
-                      <img src="image-5.jpg" alt="Image 5">
-                      <div class="text">
-                        <h2>Фото 5</h2>
-                        <p>Описание фото 5</p>
-                        <button class="btn">Подробнее</button>
-                      </div>
-                    </div>
-                    <div class="column">
-                      <img src="image-6.jpg" alt="Image 6">
-                      <div class="text">
-                        <h2>Фото 6</h2>
-                        <p>Описание фото 6</p>
-                        <button class="btn">Подробнее</button>
-                      </div>
-                    </div>
-                  </div>
+            <script src="js/script.js"></script>
+            <div class="tekst_sverhu_kartinki">
+                <div class="container">
+                    <h3 class="title">
+                        НАСТАВНИКИ АКАДЕМИИ КАЛАШНИКОВ
+                    </h3>
                 </div>
-              </div>
+            </div>
+            <div>
+                <img src="img/shari.png" alt="" width="1865" height="145">
+            </div>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">НАПРАВЛЕНИЕ ИТ ˅</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <img src="img/1.png" alt="" width="350" height="231">
+                    <div class="text">
+                        <p>АРТЁМ МАТЮШЕЧКИН</p>
+                        <p>ПЕДАГОГ, ПРОГРАММИСТ, РАЗРАБОТЧИК</p>
+                        <p>Старший Педагог</p>
+                        <button id="myButton" class="btn">ПРОЕКТЫ ПЕДАГОГА</button>
+                        <script>
+                            document.getElementById("myButton").onclick = function () {
+                                window.location.href = "#";
+                            };
+                        </script>
+                    </div>
+                    <img src="img/2.png" alt="" width="210" height="231">
+                    <div class="text">
+                        <p>ВАХРУШЕВ ЕВГЕНИЙ</p>
+                        <p>ПЕДАГОГ, СИСТЕМНЫЙ ИНЖЕНЕР</p>
+                        <button class="btn">ПРОЕКТЫ ПЕДАГОГА</button>
+                        <script>
+                            document.getElementById("myButton").onclick = function () {
+                                window.location.href = "#";
+                            };
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">НАПРАВЛЕНИЕ ПРОМДИЗАЙН ˅</button>
+                <div class="dropdown-content">
+                    <img src="img/3.png" alt="" width="270" height="231">
+                    <div class="text">
+                        <p>МАТЮШИН ВИТАЛИЙ</p>
+                        <p>КАНДИДАТ ТЕХНИЧЕСКИХ НАУК ПО ДВУМ СПЕЦИАЛЬНОСТЯМ, ОБЛАДАТЕЛЬ ДЕСЯТКА ПАТЕНТОВ</p>
+                        <p>Старший Педагог</p>
+                        <button class="btn">ПРОЕКТЫ ПЕДАГОГА</button>
+                        <script>
+                            document.getElementById("myButton").onclick = function () {
+                                window.location.href = "#";
+                            };
+                        </script>
+                    </div>
+                    <img src="img/4.png" alt="" width="210" height="231">
+                    <div class="text">
+                        <p>ДМИТРИЙ МИРОНОВ</p>
+                        <p>ПЕДАГОГ, ДИЗАЙНЕР, РУКОВОДИТЕЛЬ ДИЗАЙН-ПРОЕКТА</p>
+                        <button class="btn">ПРОЕКТЫ ПЕДАГОГА</button>
+                        <script>
+                            document.getElementById("myButton").onclick = function () {
+                                window.location.href = "#";
+                            };
+                        </script>
+                    </div>
+                    <img src="img/5.png" alt="" width="210" height="231">
+                    <div class="text">
+                        <p>СМИРНОВА МАРИНА</p>
+                        <p>Педагог</p>
+                        <button class="btn">ПРОЕКТЫ ПЕДАГОГА</button>
+                        <script>
+                            document.getElementById("myButton").onclick = function () {
+                                window.location.href = "#";
+                            };
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">НАПРАВЛЕНИЕ РОБОТОТЕХНИКА ˅</button>
+                <div class="dropdown-content">
+                    <img src="img/6.png" alt="" width="315" height="231">
+                    <div class="text">
+                        <p>ИЗИБАЕВ ЕГОР</p>
+                        <p>DIY - СПЕЦИАЛИСТ</p>
+                        <p>Педагог</p>
+                        <button class="btn">ПРОЕКТЫ ПЕДАГОГА</button>
+                        <script>
+                            document.getElementById("myButton").onclick = function () {
+                                window.location.href = "#";
+                            };
+                        </script>
+                    </div>
+                    <img src="img/7.png" alt="" width="240" height="231">
+                    <div class="text">
+                        <p>ШЕСТАКОВ ВЯЧЕСЛАВ</p>
+                        <p>МАГИСТР, ИНЖЕНЕР-ПРОГРАММИСТ</p>
+                        <p>Педагог</p>
+                        <button class="btn">ПРОЕКТЫ ПЕДАГОГА</button>
+                        <script>
+                            document.getElementById("myButton").onclick = function () {
+                                window.location.href = "#";
+                            };
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">НАПРАВЛЕНИЕ ИСКУССТВЕННЫЙ ИНТЕЛЛЕКТ. НЕЙРО ˅</button>
+                <div class="dropdown-content">
+                    <img src="img/8.png" alt="" width="250" height="241">
+                    <div class="text">
+                        <p>НЕКЛЮДОВА НАТАЛЬЯ</p>
+                        <p>СПЕЦИАЛИСТ ИНТЕЛЛЕКТУАЛЬНЫХ СИСТЕМ</p>
+                        <p>Старший педагог</p>
+                        <button class="btn">ПРОЕКТЫ ПЕДАГОГА</button>
+                        <script>
+                            document.getElementById("myButton").onclick = function () {
+                                window.location.href = "#";
+                            };
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">НАПРАВЛЕНИЕ КОСМОС ˅</button>
+                <div class="dropdown-content">
+                    <img src="img/9.png" alt="" width="270" height="241">
+                    <div class="text">
+                        <p>БАШАРОВА АННА</p>
+                        <p>Педагог</p>
+                        <button class="btn">ПРОЕКТЫ ПЕДАГОГА</button>
+                        <script>
+                            document.getElementById("myButton").onclick = function () {
+                                window.location.href = "#";
+                            };
+                        </script>
+                    </div>
+                    <img src="img/10.png" alt="" width="230" height="231">
+                    <div class="text">
+                        <p>ВЛАДИМИР ГЛУШКОВ</p>
+                        <p>ПЕДАГОГ, КАНДИДАТ ТЕХНИЧЕСКИХ НАУК, ДОЦЕНТ, ЗАВЕДУЮЩИЙ КАФЕДРОЙ</p>
+                        <button class="btn">ПРОЕКТЫ ПЕДАГОГА</button>
+                        <script>
+                            document.getElementById("myButton").onclick = function () {
+                                window.location.href = "#";
+                            };
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">НАПРАВЛЕНИЕ АЭРО ˅</button>
+                <div class="dropdown-content">
+                    <img src="img/11.png" alt="" width="260" height="241">
+                    <div class="text">
+                        <p>СЫЧЁВ АНТОН</p>
+                        <p>ПЕДАГОГ ДОПОЛНИТЕЛЬНОГО ОБРАЗОВАНИЯ, РЕГИОНАЛЬНЫЙ ЭКСПЕРТ WORLDSKILLS "ЭКСПЛУАТАЦИЯ БАС"</p>
+                        <p>Руководитель проектов развития</p>
+                        <button class="btn">ПРОЕКТЫ ПЕДАГОГА</button>
+                        <script>
+                            document.getElementById("myButton").onclick = function () {
+                                window.location.href = "#";
+                            };
+                        </script>
+                    </div>
+                </div>
+            </div>
         </main>
         <footer class="footer">
             <div class="container">
