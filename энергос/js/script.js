@@ -1,3 +1,5 @@
+
+
 const dropdowns = document.querySelectorAll('.dropdown');
 
 dropdowns.forEach(dropdown => {
@@ -13,5 +15,4 @@ dropdowns.forEach(dropdown => {
   });
 });
 
-let yearSelect = document.querySelector('select');
-let selectedYear = yearSelect.value;
+

@@ -97,3 +97,22 @@ body{
 .footer__menu-item + .footer__menu-item{
     padding-top: 2px;
 }
+
+.spis{
+    display: flex;
+}
+
+.container__scr{
+    
+}
+
+.project-list {
+    width: 200px;
+    height: 400px;
+    overflow-y: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .img-container {
+    width: calc(100% - 220px);
+  }
